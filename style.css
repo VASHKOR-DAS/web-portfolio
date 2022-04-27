@@ -15,7 +15,7 @@ p{
     color: dimgray;
 }
 
-.name-highlight{
+.orange-highlight{
     color: orange;
 }
 
@@ -55,3 +55,14 @@ section{
     background-position: right;
 }
 
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+}
+
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
