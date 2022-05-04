@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    flex-wrap: wrap;
 }
 
 h1{
@@ -81,12 +82,14 @@ section{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, lightSalmon, tomato );
     border-image-slice: 1;
+    overflow: scroll;
 }
 
 #baby-web{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
+    overflow: scroll;
 }
 
 footer p{
